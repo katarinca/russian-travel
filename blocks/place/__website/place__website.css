@@ -1,0 +1,23 @@
+.place__website {
+  width: 456px;
+  align-self: end;
+  justify-self: start;
+  grid-row: 1;
+  grid-column: 2;
+  margin: 0 auto 48px;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__website {
+    width: calc(100% - 24px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    width: calc(100% - 16px*2);
+    margin: 0 16px;
+    grid-row: 2;
+    grid-column: 1;
+  }
+}
