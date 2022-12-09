@@ -1,4 +1,4 @@
-.lead__capton {
+.lead__caption {
   max-width: 158px;
   font-style: normal;
   font-weight: 400;
@@ -9,4 +9,16 @@
   color: #fff;
   margin: 8px 0 0 0;
   align-self: flex-start;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__caption {
+    margin-left: 15px;
+  }
 }

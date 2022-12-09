@@ -4,7 +4,6 @@
   justify-self: start;
   grid-row: 1;
   grid-column: 2;
-  margin: 0 auto 48px;
 }
 
 @media screen and (max-width: 1023px) {
